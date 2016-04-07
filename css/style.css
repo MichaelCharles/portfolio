@@ -24,8 +24,8 @@ a {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	height: 90vh;
-	width: 100vw;
+	min-height: 90vh;
+	width: 100%;
 }
 
 .home-section .mdl-card {
@@ -77,8 +77,8 @@ a {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	height: 90vh;
-	width: 100vw;
+	min-height: 100vh;
+	width: 100%;
 	background-image: url("http://ecx.images-amazon.com/images/I/61k578ii8cL._SY355_.jpg");
 	background-repeat: repeat;
 }
@@ -92,7 +92,39 @@ a {
 	PROJECTS SECTION
 					*/
 
+.projects-section {
+	min-height: 100vh;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
 
+.projects-section .mdl-grid {
+	max-width: 800px;
+	width: 100%;
+}
+
+.project-tekkamikey .mdl-card__media {
+	background-image: url("https://mca62511.github.io/tekkamikey/img/share.png");
+	background-size: cover;
+	background-position: center;
+	height: 30vh;
+}
+
+.project-tic-tac-toe .mdl-card__media {
+	background-image: url("https://mca62511.github.io/tic-tac-toe/img/share.png");
+	background-size: cover;
+	background-position: center;
+	height: 30vh;
+}
+
+.project-pomodoro .mdl-card__media {
+	background-image: url("https://mca62511.github.io/pomodoro/img/share.jpg");
+	background-size: cover;
+	background-position: center;
+	height: 30vh;
+}
 
 			
 /* 
