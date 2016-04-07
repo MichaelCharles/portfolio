@@ -83,7 +83,10 @@ a {
 	background-repeat: repeat;
 }
 
-
+.about-card-square {
+	width: 100%;
+	max-width: 600px;
+}
 
 /* 
 	PROJECTS SECTION
