@@ -1,3 +1,7 @@
+a {
+	text-decoration: none;
+}
+
 /*  JAPANESE FONT STACK
 
 	This is a basic Japanese language font stack. This will ensure that Japanese text will render with
@@ -8,3 +12,86 @@
 	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro",Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", "Roboto", sans-serif;
 }
 
+.tiny-space {
+	font-size: 1px;
+}
+
+/* 
+	HOME SECTION
+					*/
+					
+.home-section {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 90vh;
+	width: 100vw;
+}
+
+.home-section .mdl-card {
+	max-width: 600px;
+	width: 100%;
+	padding: 2em;
+	text-align: center;
+}
+
+.home-section h3 {
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+.home-section h5 {
+  position: relative;
+  padding-top: 0px;
+  margin-top: -10px;
+  color: #717171;
+  font-size: 16px;
+}
+
+.home-social {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  font-size: 40px;
+}
+.home-social li {
+  margin-left: 5px;
+  margin-right: 5px;
+  display: inline;
+}
+.home-social li a:hover {
+  text-decoration: none;
+}
+
+#talk-box {
+  overflow: hidden;
+  font-size: 2em;
+  height: 1em;
+}
+
+/* 
+	ABOUT SECTION
+					*/
+
+.about-section {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 90vh;
+	width: 100vw;
+	background-image: url("http://ecx.images-amazon.com/images/I/61k578ii8cL._SY355_.jpg");
+	background-repeat: repeat;
+}
+
+
+
+/* 
+	PROJECTS SECTION
+					*/
+
+
+
+			
+/* 
+	CONTACT SECTION
+					*/
