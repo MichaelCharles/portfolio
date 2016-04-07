@@ -130,3 +130,18 @@ a {
 /* 
 	CONTACT SECTION
 					*/
+					
+.contact-section {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	width: 100%;
+	background-image: url("http://ecx.images-amazon.com/images/I/61k578ii8cL._SY355_.jpg");
+	background-repeat: repeat;
+}
+
+.contact-card {
+	width: 100%;
+	max-width: 600px;
+}
