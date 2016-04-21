@@ -82,6 +82,7 @@ a {
 	background-image: url("http://res.cloudinary.com/mca62511/image/upload/v1459296785/parallax1_voqcc8.jpg");
 	background-size: cover;
 	background-position: center;
+	background-attachment: fixed;
 }
 
 .about-card-square {
@@ -192,6 +193,7 @@ a {
 	background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/502285/writing.jpg");
 	background-size: cover;
 	background-position: center;
+	background-attachment: fixed;
 }
 
 .contact-card {
