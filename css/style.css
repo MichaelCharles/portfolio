@@ -24,7 +24,7 @@ a {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	min-height: 90vh;
+	min-height: 91vh;
 	width: 100%;
 }
 
@@ -79,14 +79,16 @@ a {
 	align-items: center;
 	min-height: 100vh;
 	width: 100%;
-	background-image: url("http://ecx.images-amazon.com/images/I/61k578ii8cL._SY355_.jpg");
-	background-repeat: repeat;
+	background-image: url("http://res.cloudinary.com/mca62511/image/upload/v1459296785/parallax1_voqcc8.jpg");
+	background-size: cover;
+	background-position: center;
 }
 
 .about-card-square {
 	width: 100%;
 	max-width: 600px;
 }
+
 
 /* 
 	PROJECTS SECTION
@@ -98,6 +100,7 @@ a {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	padding-bottom: 3em;
 }
 
 .projects-section .mdl-grid {
@@ -112,8 +115,57 @@ a {
 	height: 30vh;
 }
 
+.project-1996 .mdl-card__media {
+	background-image: url("../img/1996-preview.png");
+	background-size: cover;
+	background-position: center;
+	height: 30vh;
+}
+
+.project-twitch .mdl-card__media {
+	background-image: url("https://mca62511.github.io/twitch-channel-monitor/images/share.jpg");
+	background-size: cover;
+	background-position: center;
+	height: 30vh;
+}
+
+.project-simon .mdl-card__media {
+	background-image: url("../img/simon-preview.png");
+	background-size: cover;
+	background-position: center;
+	height: 30vh;
+}
+
+.project-task-speedometer .mdl-card__media {
+	background-image: url("http://res.cloudinary.com/mca62511/image/upload/v1460950171/custompreview_c2a2dh.png");
+	background-size: cover;
+	background-position: center;
+	height: 30vh;
+}
+
+.project-github-redirect .mdl-card__media {
+	background-image: url("../img/github-redirect-share.png");
+	background-size: cover;
+	background-position: center;
+	height: 30vh;
+}
+
 .project-tic-tac-toe .mdl-card__media {
 	background-image: url("https://mca62511.github.io/tic-tac-toe/img/share.png");
+	background-size: cover;
+	background-position: center;
+	height: 30vh;
+}
+
+.project-weather .mdl-card__media {
+	background-image: url("http://mca62511.github.io/Weather-by-Reference-Point/images/share.jpg");
+	background-size: cover;
+	background-position: center;
+	height: 30vh;
+}
+
+.project-calc .mdl-card__media {
+	background-image: url("https://mca62511.github.io/JavaScript-Calculator/images/share.jpg");
 	background-size: cover;
 	background-position: center;
 	height: 30vh;
@@ -137,8 +189,9 @@ a {
 	align-items: center;
 	min-height: 100vh;
 	width: 100%;
-	background-image: url("http://ecx.images-amazon.com/images/I/61k578ii8cL._SY355_.jpg");
-	background-repeat: repeat;
+	background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/502285/writing.jpg");
+	background-size: cover;
+	background-position: center;
 }
 
 .contact-card {
