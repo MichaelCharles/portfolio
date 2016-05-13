@@ -116,6 +116,13 @@ a {
 	height: 30vh;
 }
 
+.project-reddit-retractable-sidebar .mdl-card__media {
+	background-image: url("https://mca62511.github.io/reddit-retractable-sidebar/share.png");
+	background-size: cover;
+	background-position: center;
+	height: 30vh;
+}
+
 .project-1996 .mdl-card__media {
 	background-image: url("../img/1996-preview.png");
 	background-size: cover;
