@@ -18,3 +18,14 @@ p {
 li {
     line-height: 3;
 }
+
+a:link,
+a:active,
+a:visited {
+    color: #E91E63;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #FF3E83;
+}
