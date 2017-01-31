@@ -1,5 +1,11 @@
+body {
+    padding: 2em;
+}
+
 #main-container {
-    margin: 2em;
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
 }
 
 h1,
