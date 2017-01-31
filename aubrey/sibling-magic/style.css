@@ -13,6 +13,14 @@ p {
     font-family: Domine, serif;
     font-size: 18px;
     line-height: 1.5;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    -ms-word-break: break-all;
+    word-break: break-word;
+    -ms-hyphens: auto;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    hyphens: auto;
 }
 
 li {
