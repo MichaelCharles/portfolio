@@ -59,10 +59,12 @@
     (function() {
         'use strict';
         var content = getCookie("content");
+        content = content.replace(/<L!B>/g, '\n');
         $("textarea").val(content);
 
         $("textarea").on("change keyup", function() {
             content = $("textarea").val();
+            content = content.replace(/\n\r?/g, '<L!B>');
             console.log(content);
             setCookie("content", content, 365);
         });
