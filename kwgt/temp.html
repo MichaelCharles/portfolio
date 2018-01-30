@@ -1,16 +1,26 @@
 <body>
+
     <head>
         <title></title>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
         <script src="getAllUrlParams.js"></script>
         <script>
-            $(document).ready(function(){
+            $(document).ready(function() {
                 var long = getAllUrlParams().long;
                 var lat = getAllUrlParams().lat;
-                
+                var wnLink = encodeURIComponent("http://www.jp-weathernews.com/v/wl/" + lat + "/" + long + "/temp=c");
+                var queryUrl = "https://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20htmlstring%20where%20url%3D%22" + wnLink + "%3Fformat%3Djson%22&env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys&callback=?";
+                $.getJSON(queryUrl, function(data) {
+                    var pageHtml = data.results[0].toString();
+                    var pageHtml = pageHtml.replace(/&lt;/g, '<');
+                    var pageHtml = pageHtml.replace(/&gt;/g, '>');
+                    var temp = pageHtml.match('<span class="obs_temp_main">(.*)</span>');
+                    $("#render").text(temp[1]);
+                });
             });
         </script>
     </head>
+
     <body>
         <div id="render">...</div>
     </body>
