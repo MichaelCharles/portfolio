@@ -2,8 +2,15 @@
     <head>
         <title>WeatherNews Temp</title>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+        <script src="getAllUrlParams.js"></script>
         <script>
-            
+        /* global $ */
+        /* global getAllUrlParams $ */
+            $(document).ready(function(){
+                var long = getAllUrlParams().long;
+                var lat = getAllUrlParams().lat;
+                
+            });
         </script>
     </head>
     <body>
