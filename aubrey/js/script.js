@@ -13,6 +13,9 @@ $(document).ready(function () {
   $(".fa-tumblr").hover(function () {
     $("#talk-box").text("This is where I write things.");
   });
+  $(".fa-wrench").hover(function () {
+    $("#talk-box").text("Current and past projects.");
+  });
   $(".fa-linkedin").hover(function () {
     $("#talk-box").text("Link up with me.");
   });
